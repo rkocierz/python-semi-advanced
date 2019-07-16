@@ -2,8 +2,10 @@
 
 ## Git Cheatsheet
 
+W tabeli poniżej znajdują się polecenia, których używaliśmy na zajęciach. Ciekawa ściągawka dostępna jest pod [tym](https://www.git-tower.com/blog/git-cheat-sheet/?utm_source=hashnode.com) linkiem.
+
 |       Polecenie                 |      Skutek                                                                                 |
-| :------------------------------ | :-----------------------------------------------------------------------------------------: |
+| :------------------------------ | :------------------------------------------------------------------------------------------ |
 | git init                        | tworzy nowe repozytorium                                                                    |
 | git checkout <hash commit>      | repo przechodzi na dany commit                                                              |
 | git checkout HEAD^^             | repo przechodzi na dwa commity wcześniej                                                    |
@@ -23,4 +25,19 @@
 | git log --oneline               | j.w. ale każdy commit w jednej linijce                                                      |
 | git status                      | pokazuje pliki, które się zmieniły, pojawiły lub zostały dodane do repo po ostatnim commicie|
 
+## Linux Cheatsheet
+
+|       Polecenie                 |      Skutek                                                                                 |
+| :------------------------------ | :-----------------------------------------------------------------------------------------: |
+| cd scieżka_do_katalogu          | Zmienia katalog do wskazanego jeżeli istnieje                                               |
+| mkdir nazwa                     | Utworz katalog o podanej nazwie                                                             |
+| mkdir -p nazwa1/nazwa2/nazwa3   | Utwórz zagnieżdżone katalogi                                                                |
+| ls                              | Wydrukuj pliki i katalogi znajdujące się w obecnym katalogu                                 |
+| ls -a                           | Wydrukuj pliki i katalogi znajdujące się w obecnym katalogu w tym ukryte                    |
+| touch nazwa                     | Utwórz nowy plik                                                                            |
+| cat plik.txt                    | Wydrukuj plik tekstowy                                                                      |
+| less plik.txt                   | Wyświetla iteraktywnie; przewija się enterem                                                |
+| echo <cokolwiek>                | Drukuje <cokolwiek> na ekran                                                                |
+| <cokolwiek> > plik.txt          | Wrzuca wynik działania <cokolwiek> do plik.txt                                              |
+| <cokolwiek> >> plik.txt         | Wrzuca wynik działania <cokolwiek> na koniec plik.txt (dopisuje)                            |
 
