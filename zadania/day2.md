@@ -1,4 +1,4 @@
-#Zadania
+# Zadania
 
 ### Zadanie 1
 Wykorzystaj rozwiązanie zadania ze zbiorem iris żeby stworzyć plik, w którym ostatnia kolumna będzie zawierała kategorie (1-3) zamiast nazw gatunków irysów.
