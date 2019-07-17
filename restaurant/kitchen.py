@@ -17,5 +17,5 @@ class Kitchen:
 
     @staticmethod
     def log(message):
-        with open('kitchen.log', 'a', encoding='utf-8') as f:
+        with open('kitchen.log', 'a+', encoding='utf-8') as f:
             f.write(message + '\n')
