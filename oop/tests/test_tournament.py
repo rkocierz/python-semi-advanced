@@ -16,5 +16,7 @@ class TestTournament(unittest.TestCase):
         game1 = Game(player1, player2, 1)
         game2 = Game(player1, player3, 2)
         game3 = Game(player2, player3, 2)
-
+        arena.add(game1)
+        arena.add(game2)
+        arena.add(game3)
         self.assertEquals(arena.standing[0], player3)
